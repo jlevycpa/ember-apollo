@@ -6,7 +6,7 @@ Ember integration for the awesome [Apollo GraphQL Client](http://dev.apollodata.
 
 ## Installation (not yet published on npm)
 
-* `npm install <repository-url>`
+* `npm install --save-dev https://github.com/jlevycpa/ember-apollo.git`
 
 You will also need to install peer dependencies
 * `npm install --save-dev apollo-client graphql-tag`
