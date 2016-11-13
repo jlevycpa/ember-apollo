@@ -4,9 +4,9 @@ Ember integration for the awesome [Apollo GraphQL Client](http://dev.apollodata.
 
 **Warning: This addon is a work in progress. It has not been tested and may not work!**
 
-## Installation (not yet published on npm)
+## Installation
 
-* `npm install --save-dev https://github.com/jlevycpa/ember-apollo.git`
+* `ember install ember-apollo`
 
 You will also need to install peer dependencies
 * `npm install --save-dev apollo-client graphql-tag`
@@ -52,7 +52,7 @@ import ApolloRoute from 'ember-apollo/routes/apollo-route';
 
 // create your query
 const query = gql`
-query Test 
+query Test
 {
   allFilms {
     edges {
@@ -67,7 +67,7 @@ query Test
 // extend ApolloRoute instead of Ember.Route
 export default ApolloRoute.extend({
   // the apollo-client service is injected automatically
-  
+
   model() {
     const options = {}; //any options that ApolloClient.watchQuery allows
     return this.query(query, options);
