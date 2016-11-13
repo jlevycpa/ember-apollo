@@ -1,7 +1,7 @@
 {
   "name": "ember-apollo",
   "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "description": "Ember integration for the Apollo GraphQL Client.",
   "directories": {
     "doc": "doc",
     "test": "tests"
